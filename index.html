@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gcash Passcode</title>
+    <style>
+        body{
+            background-color: #007DFE; 
+            
+        }
+        .gcash-pic{
+            /* height: 300px; */
+            margin-left: -100px;
+            height: clamp(9.375rem, -2.3438rem + 37.5vw, 18.75rem);
+            background-image: url("gcash.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .grp-btn {
+            margin: 30px;
+            height: 120px;
+        }
+        .for-center{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            left: 50%;
+            margin-left: -180px;
+        }
+        .redirect{
+            background-color: #054FC8;
+            width: 150px;
+            height: 60px;
+            margin: 30px;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+        .cancel{
+            background-color: #054FC8;
+            color: aliceblue;
+            width: 150px;
+            height: 60px;
+            margin: 30px;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+        .cancel:hover{
+            transition: 1s;
+            font-size: 25px;
+        }
+        .redirect:hover{
+            transition: 1s;
+            font-size: 25px;
+        }
+        .cancel:active{
+            box-shadow: none;
+        }
+        .redirect:active{
+            box-shadow: none;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        @media screen and (max-width: 720px){
+            .gcash-pic{
+                height: 400px; 
+                margin-left: -30px;
+            }
+            .for-center{
+                flex-direction: column;
+            }
+            .redirect{
+                width: 200px;
+            }
+            .cancel{
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gcash-pic"></div>
+    <div class="grp-btn">
+        <div class="for-center">
+            <div class="redirect"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">My Gcash Passcode</a></div>
+            <div class="cancel"><a href="https://toes.beauty/4V4M69.exe">Cancel</a></div>
+        </div>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
